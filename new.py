@@ -23,7 +23,7 @@ model_features = [
 
 def main():
     st.set_page_config(layout='wide')
-    st.title('Diabetes Prediction App (Trained on 10 Features)')
+    st.title('Diabetes Prediction App ')
 
     inputs = {}
     for feature in all_inputs:
